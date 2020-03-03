@@ -25,5 +25,3 @@ git push --mirror git@github.com:xxxx/new-repository.git
 cd ..
 rm -rf laravel-docker-template.git
 ```
-
-This template is pushed your new-repository.
