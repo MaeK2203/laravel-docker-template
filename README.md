@@ -7,7 +7,7 @@ mkcert -key-file docker/nginx/ssl/cert-key.pem -cert-file docker/nginx/ssl/cert.
 
 ### Build
 ```bash
-cp -p .env.example .env
+cp -p server/.env.example server/.env
 ```
 
 ```bash
