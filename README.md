@@ -15,6 +15,7 @@ docker-compose up -d --build
 ```
 
 ```bash
+docker-compose exec php chown -R www-data:www-data storage
 docker-compose exec php composer install
 docker-compose exec php php artisan key:generate
 docker-compose exec php php artisan migrate
