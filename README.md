@@ -20,8 +20,7 @@ docker-compose exec php php artisan key:generate
 docker-compose exec php php artisan migrate
 ```
 
-### Node
-```
+```bash
 docker-compose php npm i
 docker-compose php npm run dev
 ```
