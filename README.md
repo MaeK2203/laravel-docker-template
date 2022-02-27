@@ -22,6 +22,6 @@ docker-compose exec php php artisan migrate
 
 ### Node
 ```
-docker-compose php npm ci
+docker-compose php npm i
 docker-compose php npm run dev
 ```
